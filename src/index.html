@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
    <head itemscope itemtype="http://schema.org/WebSite">
 
@@ -60,33 +60,94 @@
 
      <header>
 
-       <nav>
-          <ul>
-            
-          </ul>
-       </nav>
+      <div class="ui secondary  menu stackable mobile-reverse">
+        <a class="active item">
+          Home
+        </a>
+        <a class="item">
+          Messages
+        </a>
+        <a class="item">
+          Friends
+        </a>
+
+        <div class="right menu">
+          <div class="item">
+            <div class="ui icon input">
+              <input type="text" placeholder="Search...">
+              <i class="search link icon"></i>
+            </div>
+          </div>
+          <a class="ui item">
+            Sign up / Login
+          </a>
+          <button class= "ui button teal">
+            List your practice
+          </button>
+        </div>
+      </div>
 
      </header>
 
     <!-- header end -->
 
-    <main role="main">
+    <main role="main" class="ui container">
 
-      <h1>HELLO FROM HTML BOILERPLATE</h1>
+      <div class="Jumbotron">
+        <div class="ui form">
+          <div class="fields">
+            <div class="eight wide field">
+              <input placeholder="Search by Doctor name or Speciality" />
+            </div>
+            <div class="eight wide field">
+              <input type="text" placeholder="Enter Hospital Name / Emirate Name">
+            </div>
+          </div>
+        </div>  
+      </div>
 
       <!-- example -->
 
-      <section class="example">
+      <section class="HospitalsInProximity container">
 
-        <div class="cards">
-          <article></article>
-          <article></article>
-          <article></article>
+        <div class="ui horizontal divider" style="margin: 50px 0">
+          <i class="hospital symbol icon"></i>
+          Hospitals near you
+        </div>
+        
+        <div class="ui three stackable cards">
+
+         <div class="ui card">
+           <div class="image">
+             <img src="https://source.unsplash.com/random/300x200" alt="">
+           </div>
+           <div class="content">
+             <a href="/hospitals/001" class="header">
+              Medcare Hospital
+            </a>
+            <div class="ui segments">
+              <div class="ui segment">
+                Ratings
+              </div>
+              <div class="ui segment attached">
+                Timings - 10 am to 12 am
+              </div>
+              <div class="ui center aligned segment">
+                <i class="icon clock"></i>
+               
+              </div>
+            </div>
+           </div>
+         </div>
+
+       
         </div>
 
       </section>
 
-      <!-- example end -->
+      <!-- Categories Section -->
+
+
 
     </main>
 
@@ -94,9 +155,7 @@
 
     <footer>
 
-      <address>
-        2018 (v.2.0)
-      </address>
+      
 
     </footer>
 

@@ -1,0 +1,22 @@
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, li, a, button.ui.button, a.ui.button {
+  font-family: 'Merriweather', serif;
+}
+
+section {
+  margin: 50px 0;
+}
+
+.divider-column {
+  position: relative;
+  padding: 0 !important;
+}
+
+@import './partials/header';
+@import './partials/jumbotron';
+@import './partials/header_form';
+@import './partials/hospitalCard';

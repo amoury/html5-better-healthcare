@@ -1,0 +1,35 @@
+.HospitalCard {
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .ui.star.rating {
+      float: right;
+    }
+  }
+
+  .segment {
+    position: relative;
+
+    .button {
+      position: absolute;
+      right: 5%;
+      top: 50%;
+      transform: translateY(-50%);
+      
+    }
+  }
+
+  .Specialities {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .speciality_tag {
+    display: inline;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: lightslategray;
+    color: #fff;
+    margin: 5px 
+  }
+}
